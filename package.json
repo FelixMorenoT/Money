@@ -1,7 +1,33 @@
 {
   "dependencies": {
     "express": "^4.17.1",
-    "nodemon": "^2.0.7",
+    "rimraf": "^3.0.2",
     "typescript": "^4.3.4"
-  }
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.12",
+    "colors": "^1.4.0",
+    "nodemon": "^2.0.7",
+    "ts-node": "^10.0.0"
+  },
+  "name": "Money - Backend Service",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "tsc",
+    "clean": "rimraf build",
+    "generate": "npm run clean && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelixMorenoT/Money.git"
+  },
+  "author": "Felix Rafael Moreno Tabares",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FelixMorenoT/Money/issues"
+  },
+  "homepage": "https://github.com/FelixMorenoT/Money#readme"
 }
