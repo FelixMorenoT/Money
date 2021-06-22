@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to Money - Backend Service 👋</h1>
+<h1 align="center">Money - Backend Service</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/FelixMorenoT/Money#readme" target="_blank">
@@ -7,9 +7,6 @@
   <a href="https://github.com/FelixMorenoT/Money/graphs/commit-activity" target="_blank">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
-  <a href="#" target="_blank">
-    <img alt="License: ISC" src="https://img.shields.io/github/license/FelixMorenoT/Money - Backend Service" />
-  </a>
 </p>
 
 ### 🏠 [Homepage](https://github.com/FelixMorenoT/Money#readme)
@@ -17,7 +14,7 @@
 ## Install
 
 ```sh
-npm rum generate
+npm run generate
 ```
 
 ## Run tests
